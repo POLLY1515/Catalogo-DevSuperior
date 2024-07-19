@@ -1,8 +1,8 @@
-INSERT INTO TB_CATEGORY (NAME) VALUES ('Eletronics');
-INSERT INTO TB_CATEGORY (NAME) VALUES ('Livros');
-INSERT INTO TB_CATEGORY (NAME) VALUES ('Computers');
-INSERT INTO TB_CATEGORY (NAME) VALUES ('Iphone');
-INSERT INTO TB_CATEGORY (NAME) VALUES ('calcados');
-INSERT INTO TB_CATEGORY (NAME) VALUES ('fastfood');
-INSERT INTO TB_CATEGORY (NAME) VALUES ('unhas');
-INSERT INTO TB_CATEGORY (NAME) VALUES ('infantil');
+INSERT INTO TB_CATEGORY (NAME, created_at) VALUES ('Eletronics', now());
+INSERT INTO TB_CATEGORY (NAME, created_at) VALUES ('Livros', now());
+INSERT INTO TB_CATEGORY (NAME, created_at) VALUES ('Computers', now());
+INSERT INTO TB_CATEGORY (NAME, created_at) VALUES ('Iphone', now());
+INSERT INTO TB_CATEGORY (NAME, created_at) VALUES ('calcados', now());
+INSERT INTO TB_CATEGORY (NAME, created_at) VALUES ('fastfood', now());
+INSERT INTO TB_CATEGORY (NAME, created_at) VALUES ('unhas', now());
+INSERT INTO TB_CATEGORY (NAME, created_at) VALUES ('infantil', now());
