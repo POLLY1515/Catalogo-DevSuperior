@@ -100,9 +100,12 @@ public class Product {
 		this.date = date;
 	}
 
-	public void setCategories(Set<Category> categories) {
-		this.categories = categories;
+
+	public Set<Category> getCategories() {
+		return categories;
 	}
+
+	
 
 	@Override
 	public int hashCode() {
@@ -120,5 +123,7 @@ public class Product {
 		Product other = (Product) obj;
 		return Objects.equals(id, other.id);
 	}
+
+	
 
 }
