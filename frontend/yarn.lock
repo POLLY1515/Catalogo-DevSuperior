@@ -4239,6 +4239,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "bootstrap@npm:5.3.3"
+  peerDependencies:
+    "@popperjs/core": ^2.11.8
+  checksum: 537b68db30150075614310e9ebdf1be9b4affdf89ca226d59f4352e82a368b203af13ed0ce5ccfa4e06f141ecd233f7432ca3817e9c1a39863a05fbe13c73c4b
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -6664,6 +6673,7 @@ __metadata:
     "@types/node": ^16.18.104
     "@types/react": 17.0.0
     "@types/react-dom": 17.0.0
+    bootstrap: ^5.3.3
     react: 17.0.2
     react-dom: 17.0.2
     react-scripts: 5.0.1
